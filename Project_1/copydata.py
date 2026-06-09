@@ -3,10 +3,10 @@ from copy import copy
 import os
 from datetime import datetime
 # Source file
-source_file = r"E:\python\Project_1\HR_SHEET\output.xlsx"
+source_file = r"E:\Python_work\HR_SHEET\output.xlsx"
 
 # Destination file
-destination_file = r"E:\python\HR_Backup_file\Daily_HR_Sheet.xlsx"
+destination_file = r"E:\Python_work\HR_Backup_file\Daily_HR_Sheet.xlsx"
 
 # Load source workbook
 source_wb = load_workbook(source_file)

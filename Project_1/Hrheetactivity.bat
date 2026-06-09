@@ -1,6 +1,6 @@
 @echo off
 
-del /q "E:\python\Project_1\HR_SHEET\*"
+del /q "E:\Python_work\HR_SHEET\*"
 
 cd /d E:\python\project_1
 

@@ -11,7 +11,7 @@ from DbConfig.smtpconfig import SENDER_EMAIL_2, SENDER_PASSWORD
 IMAP_SERVER = "shalbyhospitals.icewarpcloud.in"
 SENDER_FILTER = "exe1.hr@shalby.in"
 
-SAVE_FOLDER = r"E:\python\Project_1\HR_SHEET"
+SAVE_FOLDER = r"E:\Python_work\HR_SHEET"
 os.makedirs(SAVE_FOLDER, exist_ok=True)
 
 today = datetime.now().date()

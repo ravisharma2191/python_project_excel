@@ -104,7 +104,7 @@ sheet3_df = sheet3_df.sort_values(
 )
 
 # Step 5: Write to Excel (Sheet2)
-output_path = r"E:\python\Project_1\HR_SHEET\output.xlsx"
+output_path = r"E:\Python_work\HR_SHEET\output.xlsx"
 
 with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
     merged_df.to_excel(writer, sheet_name="Sheet1", index=False)  

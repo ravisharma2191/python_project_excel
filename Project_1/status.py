@@ -17,7 +17,7 @@ if not conn:
 cursor = conn.cursor()
 # Read Excel
 #file_path_mail=output_path
-file_path = r"E:\python\Project_1\HR_SHEET\Output.xlsx"
+file_path = r"E:\Python_work\HR_SHEET\Output.xlsx"
 df = pd.read_excel(file_path, sheet_name="Sheet3")
 # Remove blank records
 df = df[['Employee Code', 'Final_Approved_LWD']].dropna()
